@@ -1,0 +1,65 @@
+.container {
+  margin: 30px auto;
+  padding: 16px;
+  max-width: 800px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+}
+
+.btn {
+  padding: 8px 14px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: #606266;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  border-color: skyblue;
+  color: skyblue;
+}
+
+.message {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  display: flex;
+  padding: 0 16px;
+  width: 200px;
+  border-radius: 5px;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+  opacity: 0;
+  transform: translate(-50%, -50px);
+  transition: all .3s ease;
+}
+
+.message.active {
+  transform: translate(-50%, 20px);
+  opacity: 1;
+}
+
+.message.success {
+  background-color: #67c23a;
+}
+
+.message.info {
+  background-color: #909399;
+}
+
+.message.warning {
+  background-color: #e6a23c;
+}
+
+.message.error {
+  background-color: #f56c6c;
+}
+
+.message .iconfont {
+  margin-right: 10px;
+}

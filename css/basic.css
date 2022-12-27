@@ -66,7 +66,7 @@
   border-color: #909399;
 }
 
-.btn.btn-success:hover {
+.btn.btn-info:hover {
   background-color: #A7A9AD;
   border-color: #A7A9AD;
 }
@@ -77,7 +77,7 @@
   border-color: #f56c6c;
 }
 
-.btn.btn-success:hover {
+.btn.btn-danger:hover {
   background-color: #E88F8C;
   border-color: #E88F8C;
 }

@@ -26,6 +26,14 @@
   width: 800px;
   border-radius: 3px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all .3s ease;
+}
+
+.dialog.appear .main {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .dialog .main .header {
